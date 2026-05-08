@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css" rel="stylesheet">
-    <title>Neuron</title>
+    <title>About us - Neuron</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
-<main>
+<body>
     <header class="header">
         <div class="header__block block--xl">
             <img src="media/logo/logo-black.svg" class="header__logo">
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Price</a></li>
-                    <li><a href="#">Content</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="#prices">Price</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <body>
+    <main>
+        <section class="hero">
+            <div class="hero__background hero__background--about">
+                <div class="hero__block block">
+                    <h1 class="h2">About us</h1>
+                </div>
+            </div>
+        </section>
         <!-- Home__1 -->
         <section class="home__1 section">
             <div class="home__1 block">
@@ -74,7 +81,7 @@
         </section>
      <!-- / Home 2 -->
         <!-- Prices -->
-        <section class="prices section">
+        <section id="prices" class="prices section">
             <div class="prices__block block">
                 <div class="prices__card">
                     <div class="prices__head">
@@ -257,8 +264,9 @@
                     </form>
                 </div>
             </div>
-        <!-- / Contact -->
-    </body>
+        </section>
+    </main>    
+</body>
     <footer class="footer">
         <div class="footer__block block--xl">
             <div class="footer__logo">
@@ -277,4 +285,3 @@
             </ul>
         </div>
     </footer>
-</main>
