@@ -13,15 +13,15 @@
 <body>
     <header class="header">
         <div class="header__block block--xl">
-            <img src="media/logo/logo-black.svg" class="header__logo">
+            <img src="media/logo/logo-black.svg" class="header__logo" alt="Header Logo">
             <nav class="header__nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="#prices">Price</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" title="Home">Home</a></li>
+                    <li><a href="services.html" title="Services">Services</a></li>
+                    <li><a href="about.html" title="About us">About us</a></li>
+                    <li><a href="news.html" title="News">News</a></li>
+                    <li><a href="#prices" title="Price">Price</a></li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,10 +30,15 @@
         <!-- Hero -->
         <section class="hero">
             <div class="hero__background">
+                <picture>
+                    <source srcset="media/img/Home-banner.webp" type="image/webp">
+                    <img class="hero__image" src="media/img/Home-banner.jpg" alt="hero__background">
+                </picture>
+                <span class="home__banner"></span>
                 <div class="hero__block block">
                     <h1>We`re on the road.</h1>
                     <p class="h4">Secure and efficient digitization.</p>
-                    <a href="#" class="btn btn--light">Check our services</a>
+                    <a href="#" class="btn btn--light" title="Check our Services">Check our services</a>
                 </div>
             </div>
         </section>
@@ -43,14 +48,17 @@
         <section class="home__1 section">
             <div class="home__1 block">
                 <div class="home__1__img">
-                    <img src="media/img/Home-img-1.webp">
+                    <picture>
+                        <source srcset="media/img/Home-img-1.webp" type="image/webp">
+                        <img src="media/img/Home-img-1.jpg" alt="Home image 1">
+                    </picture>
                 </div>
                 <div class="home__content">
                     <div class="home__content__1">
                         <h2>A little bit about us.</h2>
                         <h3 class="h4">Not enought for sure.</h3>
                         <p>We are a business digitalization company that will help you get what you want: to have an online presence in front of your competition. Specialists in the field of digitization of publishers and magazines.</p>
-                        <a href="#" class="btn btn--dark">More about us <i class="ri-arrow-right-up-line"></i></a>  
+                        <a href="#" class="btn btn--dark" title="More about us">More about us <i class="ri-arrow-right-up-line"></i></a>  
                     </div>
                 </div>
             </div> 
@@ -91,11 +99,14 @@
                         <h2>We make everything easy.</h2>
                         <h3 class="h4">Or so we are told</h3>
                         <p>We keep the essence of your business, no worries, just ease of use, speed, and constant communication with our team of professionals. What else?</p>
-                        <a href="#" class="btn btn--dark">Let me in<i class="ri-arrow-right-up-line"></i></a>  
+                        <a href="#" class="btn btn--dark" title="Let me in">Let me in<i class="ri-arrow-right-up-line"></i></a>  
                     </div>
                 </div>
                 <div class="home__1__img">
-                    <img src="media/img/Home-img-2.webp">
+                    <picture>
+                        <source srcset="media/img/Home-img-2.webp" type="image/webp">
+                        <img src="media/img/Home-img-2.jpg">
+                    </picture>
                 </div>
             </div> 
         </section>
@@ -107,17 +118,24 @@
                 <h4 class="body">Take a look at our most outstanding services, surely some of them will interest you.</h4>
                     <ul class="services__cards">
                         <li class="services__card">
-                            <img src="media/img/Services-1.webp">
+                            <picture>
+                                <source srcset="media/img/Services-1.webp" type="image/webp">
+                                <img src="media/img/Services-1.jpg" alt="services 1">
+                            </picture>
                             <h3 class="h4">Web development</h3>
                             <p>We convert your business into a fully functional and editable website, with what your business requires, fast and easy to use.</p>
                         </li>
                         <li class="services__card">
-                            <img src="media/img/Services-2.webp">
+                            <picture>
+                                <source srcset="media/img/Services-2.webp"
+                                type="image/webp">
+                                <img src="media/img/Services-2.jpg">
+                            </picture>
                             <h3 class="h4">App development</h3>
                             <p>We convert your business into a fully functional and editable website, with what your business requires, fast and easy to use.</p>
                         </li>
                     </ul>
-                    <a href="#" class="btn btn--dark">See all services</a>
+                    <a href="#" class="btn btn--dark" title="See all services">See all services</a>
                 </div>
         </section>
 
@@ -128,7 +146,7 @@
                     <div class="prices__head">
                         <h2 class="h3">Basic Plan</h2>
                         <span class="h1">99€</span>
-                        <a href="#" class="btn btn--dark">
+                        <a href="#" class="btn btn--dark" title="Try it for free">
                             Try it for free
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
@@ -172,7 +190,7 @@
                     <div class="prices__head">
                         <h2 class="h3">Pro Plan</h2>
                         <span class="h1">129€</span>
-                        <a href="#" class="btn btn--dark">
+                        <a href="#" class="btn btn--dark" title="Try it for free">
                             Try it for free
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
@@ -216,7 +234,7 @@
                     <div class="prices__head">
                         <h2 class="h3">Xtreme Plan</h2>
                         <span class="h1">199€</span>
-                        <a href="#" class="btn btn--dark">
+                        <a href="#" class="btn btn--dark" title="Try it for free">
                             Try it for free
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
@@ -288,7 +306,7 @@
                                 placeholder="E-mail" name="email">                   
                             </div>
                             <div>
-                                <label for="servide">Service:</label>
+                                <label for="service">Service:</label>
                                 <select name="service" id="service">
                                     <option value="service-1">Service 1 </option>
                                     <option value="service-2">Service 2</option>
@@ -299,7 +317,7 @@
                         </div>
                         <label class="contact__form-acceptance">
                             <input type="checkbox" name="acceptance">
-                            <span>I have read and accept the <a href="#">privacy policy.</a></span>
+                            <span>I have read and accept the <a href="#" title="privacy policy">privacy policy.</a></span>
                         </label>
                         <button type="submit">Send </button>
                     </form>
@@ -311,26 +329,35 @@
             <div class="post__block block">
                 <div class="post__head">
                     <h2>Latest post</h2>
-                    <a href="#" class="btn btn--dark">Go ahead all our post<i class="ri-arrow-right-up-line"></i></a>
+                    <a href="#" class="btn btn--dark" title="Go ahead all our post">Go ahead all our post<i class="ri-arrow-right-up-line"></i></a>
                 </div>
                 <div class="post__cards">
                     <div class="post__card">
-                        <img src="media/img/News-1.webp">
+                        <picture>
+                            <source srcset="media/img/News-1.webp" type="image/webp">
+                            <img src="media/img/News-1.jpg">
+                        </picture>
                         <h4>The Ultimate Guide to Digital Transformation for Small...</h4>
                         <p>Embracing digital transformation is essential for small businesses seeking growth and resilience...</p>
-                        <a href="#" class="links">See more</a>
+                        <a href="#" class="links" title="See more">See more</a>
                     </div>
                     <div class="post__card">
-                        <img src="media/img/News-2.webp">
+                        <picture>
+                            <source srcset="media/img/News-2.webp" type="image/webp">
+                            <img src="media/img/News-2.jpg">
+                        </picture>
                         <h4>The Ultimate Guide to Digital Transformation for Small...</h4>
                         <p>Embracing digital transformation is essential for small businesses seeking growth and resilience...</p>
-                        <a href="#" class="links">See more</a>
+                        <a href="#" class="links" title="See more">See more</a>
                     </div>
                     <div class="post__card">
-                        <img src="media/img/News-3.webp">
+                        <picture>
+                            <source srcset="media/img/News-3.webp" type="image/webp">
+                            <img src="media/img/News-3.jpg">
+                        </picture>
                         <h4>The Ultimate Guide to Digital Transformation for Small...</h4>
                         <p>Embracing digital transformation is essential for small businesses seeking growth and resilience...</p>
-                        <a href="#" class="links">See more</a>
+                        <a href="#" class="links" title="See more">See more</a>
                     </div>
                 </div>
                 <div class="post__footer">
@@ -351,9 +378,9 @@
                 </ul>
             </div>
             <ul class="footer__legal">
-                <li><a href="#">Legal Notice</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Legal Policy</a></li>
+                <li><a href="#" title="Legal Notice">Legal Notice</a></li>
+                <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+                <li><a href="#" title="Legal Policy">Legal Policy</a></li>
             </ul>
         </div>
     </footer>
